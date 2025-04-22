@@ -58,17 +58,17 @@ public class ProductController {
         );
 
         ProductResponseDto productResponseDto = ProductResponseDto.from(product);
-        //System.out.println(productResponseDto);
+        //System.out.println(productResponseDto.getName());
         return productResponseDto;
     }
 
-//    @ExceptionHandler(NullPointerException.class)
-//    public ErrorDto handleNullPointerException()
-//    {
-//        ErrorDto errorDto = new ErrorDto();
-//        errorDto.setStatus("Failure");
-//        errorDto.setMessage("NullPointer exception is occurred");
-//
-//        return errorDto;
-//    }
+    //    @ExceptionHandler(NullPointerException.class)
+    //    public ErrorDto handleNullPointerException()
+    //    {
+    //        ErrorDto errorDto = new ErrorDto();
+    //        errorDto.setStatus("Failure");
+    //        errorDto.setMessage("NullPointer exception is occurred");
+    //
+    //        return errorDto;
+    //    }
 }
